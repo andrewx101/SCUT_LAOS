@@ -53,7 +53,7 @@ To save time and avoid irreversible structural change, I recommend setting sever
 
 Please make sure the number of cycles of each step is large enough for the response to be stationary for quite a few cycles. Also, take care of the points per cycle setting; let it be orders-of-magnitude larger than is required by the [Nyquist--Shannon sampling theorem](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem). 
 
-An example JSON file is provided for testing the app.
+An example [JSON file (351 MB)](https://www.andrewsun.net/wp-content/uploads/example.json) and its corresponding [`.tri` file (9.22 MB)](https://www.andrewsun.net/wp-content/uploads/example.tri) are provided for testing the app.
 
 [^1]: K. Hyun, M. Wilhelm, C.O. Klein, K.S. Cho, J.G. Nam, K.H. Ahn, S.J. Lee, R.H. Ewoldt, and G.H. McKinley, "A review of nonlinear oscillatory shear tests: Analysis and application of large amplitude oscillatory shear (LAOS)", Progress in Polymer Science, vol. 36, pp. 1697-1753, 2011.
 [^2]: W. Sun, Y. Yang, T. Wang, X. Liu, C. Wang, and Z. Tong, "Large amplitude oscillatory shear rheology for nonlinear viscoelasticity in hectorite suspensions containing poly(ethylene glycol)", _Polymer_, vol. 52, pp. 1402-1409, 2011.
