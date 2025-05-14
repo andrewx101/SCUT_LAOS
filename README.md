@@ -3,8 +3,8 @@ Quite note: this app only supports JSON data file exported via TA TRIOS software
 ## Introduction
 In the large amplitude oscillatory shear (LAOS) experiment, the material is deformed in its nonlinear viscoelastic regime. The information of nonlinear viscoelasticity can be extracted from the higher harmonic tones of the Fourier transform of the response. To date, different parameters have been proposed to characterize many aspects of the nonlinear viscoelasticity under LAOS; among them widely used are
 
-* the related intensity of higher harmonics, *I*~n/1~,
-* the shape parameters of the Lissajous curve, *G*~M~, *G*~L~ and *G*~k~.
+* the related intensity of higher harmonics, *I*<sub>n/1</sub>,
+* the shape parameters of the Lissajous curve, *G*<sub>M</sub>, *G*<sub>L</sub> and *G*<sub>k</sub>.
 
 For their definition and more detailed information of the LAOS rheology, please refer to the review by Hyun et al.[^1]
 
@@ -40,7 +40,7 @@ Click `Analysis` for LAOS analysis. If the "Bad strain data" error pops up, one 
 
 If the strain data is good, the analysis will proceed. The raw and reconstructed Lissajous curve of the current data will be shown in the `Lissajous curve` plot. If the reconstructed curve briefly reproduces the raw curve, then the results of this analysis are reliable. You may consider appending the LAOS parameters to the table by clicking `Append to table`, or exporting the reconstructed Lissajous data by clicking `Export Lissajous`.
 
-The nonlinear viscoelastic parameters provided by the tool are shown in the header row of the table: The strain amplitude and strain frequency are estimated from the strain signal. The sampling frequency is that of the raw signals. *G*~1~′ and *G*~1~″ are the real and imaginary moduli of the first harmonic response. They reduce to the storage and loss modulus at small strain amplitudes. The Lissajous parameters *G*~M~*G*~L~ and *G*~k~  are calculated by slope finding on the reconstructed signal.[^1] The slope finding is performed for all cycles and the results are averaged. These maximize the signal-to-noise ratio (SNR) of the results. The *N*~E~ parameter was suggested by the author.[^2] The last parameter, SNR in dB, is the signal-to-noise ratio of the higher odd harmonics. It is defined by the ratio of the power of the 3rd, 5th, ... odd harmonic to that of the noise floor. Only when SNR > 0 you need to pay attention to the higher harmonics.
+The nonlinear viscoelastic parameters provided by the tool are shown in the header row of the table: The strain amplitude and strain frequency are estimated from the strain signal. The sampling frequency is that of the raw signals. *G*<sub>1</sub>′ and *G*<sub>1</sub>″ are the real and imaginary moduli of the first harmonic response. They reduce to the storage and loss modulus at small strain amplitudes. The Lissajous parameters *G*<sub>M</sub>, *G*<sub>L</sub> and *G*<sub>k</sub> are calculated by slope finding on the reconstructed signal.[^1] The slope finding is performed for all cycles and the results are averaged. These maximize the signal-to-noise ratio (SNR) of the results. The *N*<sub>E</sub> parameter was suggested by the author.[^2] The last 4 parameters are the signal-to-noise ratios of the 3rd, 5th, 7th, and 9th harmonics in dB. Typically, when and only when SNR<sub>n</sub> ≳ 6 dB do you need to pay attention to the n-th harmonics.
 
 The rows of the table can be multi-selected. Click `Delete row(s)` to delete the current selected row(s).  Click `Clear table` to clean all the data. You can copy the data from the table by keyboard shortcut `Ctrl_C` and paste to other software for further plotting. Carefully choosing the result steps and appending the LAOS parameters to the table, you can construct a table of strain sweep, frequency sweep or both for Pipkin diagram.
 
