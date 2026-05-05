@@ -1,5 +1,5 @@
 # LAOS data analysis
-Quite note: this app only supports JSON data file exported via TA TRIOS software Version 5.8.0.38.
+Quick note: this app only supports JSON data file exported via TA TRIOS software Version 5.8.0.38.
 ## Introduction
 In the large amplitude oscillatory shear (LAOS) experiment, the material is deformed in its nonlinear viscoelastic regime. The information of nonlinear viscoelasticity can be extracted from the higher harmonic tones of the Fourier transform of the response. To date, different parameters have been proposed to characterize many aspects of the nonlinear viscoelasticity under LAOS; among them widely used are
 
